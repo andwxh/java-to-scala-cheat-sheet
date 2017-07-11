@@ -1,4 +1,22 @@
 # Scala cheatsheet
+[变量定义](#变量定义)
+[只读变量定义](#只读变量定义)
+[判断相等](#判断相等)
+[数组操作](#数组操作)
+[函数定义](#函数定义)
+[类定义](#类定义)
+[接口定义](#接口定义)
+[包含static成员的类定义](#包含static成员的类定义)
+[类继承](#类继承)
+[getter/setter](#getter/setter)
+[枚举类型](#枚举类型)
+[if语句](#if语句)
+[三元布尔表达式](#三元布尔表达式)
+[while循环](#while循环)
+[for循环](#for循环)
+[for-each语法](#for-each语法)
+
+
 ## 变量定义
 Java:
 ```java
@@ -158,7 +176,7 @@ class SomeClass extends BaseClass with SomeInterface1 with SomeInterface2 {
 ```
 
 
-## getter / setter
+## getter/setter
 Java:
 ```java
 class SomeClass {
@@ -283,7 +301,7 @@ while(i < 10) {
 ```
 
 
-## for each语法
+## for-each语法
 Java:
 ```java
 List<String> ls = Arrays.asList(new String[]{"abc"});
