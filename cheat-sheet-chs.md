@@ -9,6 +9,7 @@ Scala:
 var i = 1 // Scala有类型推，一般情况不需要显式声明类型
 var i: Int = 1
 ```
+
 ## 只读变量定义
 Java:
 ```java
@@ -18,6 +19,7 @@ Scala:
 ```scala
 val i = 1 // 常用
 ```
+
 ## 判断相等
 Java:
 ```java
@@ -35,6 +37,7 @@ val s = "hey"
 i == 1  // true
 s == "hey"  // true
 ```
+
 ## 数组操作
 Java:
 ```java
@@ -51,6 +54,7 @@ println(sa(0))  // Console output: a
 sa(0) = "hello world"
 println(sa(0))  // Console output: hello world
 ```
+
 ## 函数定义
 Java:
 ```java
@@ -62,6 +66,7 @@ Scala:
 ```scala
 def count(l: Int, r: Int) = l + r // Scala有类型推断，函数返回值可以不显式声明类型，参数受限于类型系统无法推断仍需要显式声明
 ```
+
 ## 类定义
 Java:
 ```java
@@ -91,6 +96,7 @@ class SomeClass(memberVariable: Int, val readonlyMember: Int) {
     def count(l: Int, r: Int) = l + r
 }
 ```
+
 ## 接口定义
 Java:
 ```java
@@ -109,6 +115,7 @@ trait SomeTrait {
     def getIPlus = i + 1
 }
 ```
+
 ## 包含static成员的类定义
 Java:
 ```java
@@ -127,6 +134,7 @@ object SomeObject {
     def getIPlus = i + 1
 }
 ```
+
 ## 类继承
 Java:
 ```java
@@ -140,6 +148,7 @@ class SomeClass extends BaseClass with SomeInterface1 with SomeInterface2 {
     ...
 }
 ```
+
 ## getter / setter
 Java:
 ```java
@@ -173,6 +182,7 @@ val o = new SomeClass
 o.i = 123
 println(o.i)  // console output: 123
 ```
+
 ## 枚举类型
 Java:
 ```java
@@ -195,6 +205,7 @@ object A extends SomeType { val i = 1 }
 object B extends SomeType { val i = 2 }
 object C extends SomeType { val i = 4 }
 ```
+
 ## if语句
 Java:
 ```java
@@ -213,6 +224,7 @@ if (条件) {
     语句
 }
 ```
+
 ## 三元布尔表达式
 Java:
 ```java
@@ -223,6 +235,7 @@ Scala:
 // Scala的if语句本身带有返回值，因此可以直接替代三元布尔表达式使用
 if (条件) 表达式 else 表达式
 ```
+
 ## while循环
 Java:
 ```java
@@ -237,6 +250,7 @@ while(条件) {
     循环体
 }
 ```
+
 ## for循环
 Java:
 ```java
@@ -253,6 +267,7 @@ while(i < 10) {
     i++
 }
 ```
+
 ## for each语法
 Java:
 ```java
